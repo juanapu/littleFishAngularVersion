@@ -1,0 +1,18 @@
+#all_bg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#allcanvas{
+	width: 800px;
+	height: 600px;
+	position: relative;
+}
+#canvas1{
+	position: absolute;
+	z-index: 2;
+}
+#canvas2{
+	position: absolute;
+	z-index: 1;
+}
